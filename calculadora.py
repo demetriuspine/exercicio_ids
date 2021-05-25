@@ -1,5 +1,5 @@
 def potencia (a, b):
-  pass
+  a**b
 
 def divisao (a, b):
   a//b
