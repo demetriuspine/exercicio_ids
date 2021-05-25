@@ -5,7 +5,7 @@ def divisao (a, b):
   pass
 
 def multiplicacao (a, b):
-  pass
+  return a*b
 
 def subtracao (a, b):
   return a - b
