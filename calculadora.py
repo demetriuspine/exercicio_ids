@@ -1,8 +1,8 @@
 def potencia (a, b):
-  a**b
+  return a**b
 
 def divisao (a, b):
-  a//b
+  return a//b
 
 def multiplicacao (a, b):
   return a*b
@@ -22,9 +22,9 @@ if operacao == '+':
 elif operacao == '-':
   resultado = subtracao(a, b)
 elif operacao == '*':
-  resultado = a * b
+  resultado = multiplicacao(a, b)
 elif operacao == '/':
-  resultado = a // b
+  resultado = divisao(a, b)
 else:
-  resultado = a ** b
+  resultado = potencia(a, b)
 print (resultado)
