@@ -8,7 +8,7 @@ def multiplicacao (a, b):
   pass
 
 def subtracao (a, b):
-  pass
+  return a - b
 
 def soma (a, b):
   return a + b
@@ -16,11 +16,11 @@ def soma (a, b):
 a = int(input("Digite o primeiro valor"))
 b = int(input ("Digite o segundo valor"))
 
-operacao = input("+: Soma\n-: Subtração\n*: Multiplicação\n/: Divisão\n**: Exponenciação")
+operacao = input("+: Soma\n-: Subtração\n*: Multiplicação\n/: Divisão Inteira\n**: Exponenciação")
 if operacao == '+':
   resultado = soma(a, b)
 elif operacao == '-':
-  resultado = a - b
+  resultado = subtracao(a, b)
 elif operacao == '*':
   resultado = a * b
 elif operacao == '/':
